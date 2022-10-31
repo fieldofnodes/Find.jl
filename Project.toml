@@ -1,0 +1,13 @@
+name = "Find"
+uuid = "868e00f5-a688-4ce3-b3d5-6bdceef921d9"
+authors = ["Jonathan Miller"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
