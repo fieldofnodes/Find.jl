@@ -1,5 +1,11 @@
 module Find
 
-# Write your package code here.
+using Reexport
 
+@reexport using Revise
+
+export 
+    find
+
+    include("find_function.jl")
 end
